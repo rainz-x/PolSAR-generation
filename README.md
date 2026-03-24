@@ -1,12 +1,10 @@
 # PolSAR-generation
-论文《Azi-Vec: High-resolution Azimuth-Sensitive PolSAR Image Generation for Vehicle Automatic Target Recognition》的代码与相关数据。<br>
-本项目目前仍在持续推进中，相关代码正在进一步整理、规范与完善。<br>
+This repository provides the code and related datasets for the paper *Azi-Vec: High-resolution Azimuth-Sensitive PolSAR Image Generation for Vehicle Automatic Target Recognition*.<br>
+This project is still in progress, and the related code is currently being further organized, standardized, and refined.<br>
 <br>
-<br>
-<br>
-相关数据获取方式，其中 :<br>
-🔹HH 通道数据见[下载页面](https://www.scidb.cn/file?fid=1d2a817c2267d47a9a5eb74ce86cc79d&mode=front)，<br>
-单极化数据集面向高分辨率 SAR 目标识别应用需求，通过场景布设、航线规划和雷达数据采集等流程获取了 4 个场景下的高分辨率 SAR 目标数据，涵盖 7 大类 21 型车辆目标，背景包括水泥地面、草地和树丛，频段覆盖 Ku 和 X 波段，观测视角覆盖 5 个俯仰角和 72 个方位角，共形成 3308 张 SAR 目标切片样本。数据集同时提供 SAR 幅度图像及对应复数据，可为高分辨率 SAR 目标识别、目标散射特性分析及相关方法研究提供数据支撑。<br>
-📘完整数据说明见[说明页面](https://www.sciengine.com/CSD/doi/10.11922/11-6035.csd.2025.0094.zh)。<br>
-🔹全极化数据[下载页面](https://www.scidb.cn/detail?dataSetId=0378a4e05fdf43c4b81187e4448e369c&version=V1) <br>
-全极化数据集覆盖 7 大类 21 型车辆，包含水泥坪、草地和树丛 3 类典型背景，涵盖 Ku 和 X 两个波段、5 个俯仰角以及最多 72 个方位角，共提供 3308 幅 Pauli-RGB 图像及对应的极化散射矩阵数据。该数据集可为车辆目标极化散射特性分析、细粒度识别、小样本学习和域适应等研究提供高质量数据支撑，并有助于推动极化 SAR 目标识别技术的可靠应用。<br>
+The related datasets can be accessed as follows:<br>
+🔹 The HH-channel dataset is available on the [download page](https://www.scidb.cn/file?fid=1d2a817c2267d47a9a5eb74ce86cc79d&mode=front).<br>
+The single-polarization dataset is designed for high-resolution SAR target recognition applications. Through scene setup, flight path planning, and radar data acquisition, high-resolution SAR target data from four scenes were collected. The dataset covers 21 vehicle types in 7 major categories, with backgrounds including concrete ground, grassland, and shrubs. It includes both Ku-band and X-band data, with observation angles covering 5 elevation angles and 72 azimuth angles, forming a total of 3,308 SAR target chip samples. The dataset provides both SAR amplitude images and the corresponding complex-valued data, which can support research on high-resolution SAR target recognition, target scattering characteristic analysis, and related methods.<br>
+📘 Detailed dataset information is available on the [description page](https://www.sciengine.com/CSD/doi/10.11922/11-6035.csd.2025.0094.zh).<br>
+🔹 The PolSAR dataset is available on the [download page](https://www.scidb.cn/detail?dataSetId=0378a4e05fdf43c4b81187e4448e369c&version=V1).<br>
+The PolSAR dataset covers 21 vehicle types in 7 major categories, with three typical background types: concrete ground, grassland, and shrubs. It includes both Ku-band and X-band data, 5 elevation angles, and up to 72 azimuth angles, providing a total of 3,308 Pauli-RGB images and the corresponding polarimetric scattering matrix data. This dataset can provide high-quality support for research on vehicle target polarimetric scattering characteristic analysis, fine-grained recognition, few-shot learning, and domain adaptation, and can further facilitate the reliable application of PolSAR target recognition technology.<br>
