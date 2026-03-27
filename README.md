@@ -21,7 +21,7 @@ If you use the above two datasets, please cite:<br>
   url     = {https://www.sciengine.com/CSD/doi/10.11922/11-6035.csd.2025.0094.zh}
 }
 
-@misc{ 0378a4e05fdf43c4b81187e4448e369c,
+@misc{0378a4e05fdf43c4b81187e4448e369c,
   author       = {Wang Wei and Deng Jie and Fan Hongqi and Wu Zhongjie and Quan Sinong and Hui Bingwei and Liu Tianpen and Wu Shujie and Xiang Deliang and Wei Chaofu},
   title        = {{High-resolution Airborne PolSAR vehicle target recognition dataset}},
   year         = 2025,
